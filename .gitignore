@@ -136,3 +136,6 @@ typings/
 .next
 
 
+# GitBook
+
+_book/

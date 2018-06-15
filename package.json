@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "rimraf _book/ && gitbook build && cpx CNAME _book/",
+    "deploy": "npm run build && gh-pages -d _book/"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "gh-pages": "^1.2.0",
+    "gitbook-cli": "^2.3.2",
+    "rimraf": "^2.6.2"
+  }
+}
