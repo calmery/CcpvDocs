@@ -1,0 +1,47 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.1.0
+
+    working_directory: ~/ccpv
+
+    steps:
+      - checkout
+
+      - run: npm install
+      - run: npm run build
+
+      - persist_to_workspace:
+          root: ~/
+          paths: ./*
+
+  deploy:
+    docker:
+      - image: circleci/node:10.1.0
+
+    working_directory: ~/ccpv
+
+    steps:
+      - attach_workspace:
+          at: ~/
+
+      - run: git config --global user.name $GH_NAME
+      - run: git config --global user.email $GH_EMAIL
+      - run: npm run deploy
+
+workflows:
+  version: 2
+
+  build-and-deploy:
+    jobs:
+      - build
+
+      - deploy:
+          requires:
+            - build
+
+          filters:
+            branches:
+              only: master
