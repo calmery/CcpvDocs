@@ -1,6 +1,6 @@
 # チュートリアル
 
-このチュートリアルでは HTML の基礎文法を説明します．
+このチュートリアルでは HTML（HyperText Markup Language）の基礎文法を説明します．
 
 ### HTML とは？
 
