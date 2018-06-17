@@ -2,3 +2,15 @@
 
 * [Introduction](README.md)
 
+---
+
+### JavaScript
+
+* [チュートリアル](docs/JavaScript/README.md)
+  * [Hello World !](docs/JavaScript/HelloWorld.md)
+  * [変数](docs/JavaScript/Variable.md)
+  * [条件分岐](docs/JavaScript/If.md)
+  * [ループ](docs/JavaScript/For.md)
+  * [関数](docs/JavaScript/Function.md)
+  * [オブジェクト](docs/JavaScript/Object.md)s
+* [チートシート](docs/JavaScript/CheatSheet.md)
