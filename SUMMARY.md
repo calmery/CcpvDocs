@@ -27,8 +27,9 @@
   * [条件分岐](docs/JavaScript/If.md)
   * [ループ](docs/JavaScript/For.md)
   * [関数](docs/JavaScript/Function.md)
-  * [オブジェクト](docs/JavaScript/Object.md)s
+  * [オブジェクト](docs/JavaScript/Object.md)
 * [チートシート](docs/JavaScript/CheatSheet.md)
+* [サンプル](docs/JavaScript/Sample.md)
 
 ---
 
