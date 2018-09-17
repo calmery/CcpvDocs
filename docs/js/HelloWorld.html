@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>サンプル · GitBook</title>
+        <title>Hello World ! · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../GitHub/" />
+    <link rel="next" href="Variable.html" />
     
     
-    <link rel="prev" href="CheatSheet.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -109,9 +109,9 @@
         
         
     
-        <li class="chapter " data-level="2.1" data-path="../HTML/">
+        <li class="chapter " data-level="2.1" data-path="../html/README.md">
             
-                <a href="../HTML/">
+                <span>
             
                     
                     チュートリアル
@@ -123,9 +123,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.1.1" data-path="../HTML/HelloWorld.html">
+        <li class="chapter " data-level="2.1.1" data-path="../html/HelloWorld.md">
             
-                <a href="../HTML/HelloWorld.html">
+                <span>
             
                     
                     Hello World !
@@ -136,9 +136,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.1.2" data-path="../HTML/Tag.html">
+        <li class="chapter " data-level="2.1.2" data-path="../html/Tag.md">
             
-                <a href="../HTML/Tag.html">
+                <span>
             
                     
                     タグ
@@ -161,9 +161,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../CSS/">
+        <li class="chapter " data-level="3.1" data-path="../css/README.md">
             
-                <a href="../CSS/">
+                <span>
             
                     
                     チュートリアル
@@ -175,9 +175,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="3.1.1" data-path="../CSS/Layout.html">
+        <li class="chapter " data-level="3.1.1" data-path="../css/Layout.md">
             
-                <a href="../CSS/Layout.html">
+                <span>
             
                     
                     レイアウト
@@ -214,7 +214,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="4.1.1" data-path="HelloWorld.html">
+        <li class="chapter active" data-level="4.1.1" data-path="HelloWorld.html">
             
                 <a href="HelloWorld.html">
             
@@ -310,7 +310,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.3" data-path="Sample.html">
+        <li class="chapter " data-level="4.3" data-path="Sample.html">
             
                 <a href="Sample.html">
             
@@ -326,13 +326,13 @@
 
     
         
-        <li class="header">GitHub</li>
+        <li class="header">Git</li>
         
         
     
-        <li class="chapter " data-level="5.1" data-path="../GitHub/">
+        <li class="chapter " data-level="5.1" data-path="../git/">
             
-                <a href="../GitHub/">
+                <a href="../git/">
             
                     
                     GitHub とは
@@ -344,9 +344,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.1.1" data-path="../GitHub/Practice.html">
+        <li class="chapter " data-level="5.1.1" data-path="../git/Practice.html">
             
-                <a href="../GitHub/Practice.html">
+                <a href="../git/Practice.html">
             
                     
                     Web サイトを公開する
@@ -392,7 +392,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >サンプル</a>
+        <a href="../.." >Hello World !</a>
     </h1>
 </div>
 
@@ -407,48 +407,62 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x30B5;&#x30F3;&#x30D7;&#x30EB;">&#x30B5;&#x30F3;&#x30D7;&#x30EB;</h1>
-<p>JavaScript &#x3092;&#x4F7F;&#x7528;&#x3057;&#x305F;&#x3044;&#x304F;&#x3064;&#x304B;&#x306E;&#x30B5;&#x30F3;&#x30D7;&#x30EB;&#x3092;&#x7D39;&#x4ECB;&#x3057;&#x307E;&#x3059;&#xFF0E;</p>
-<h3 id="&#x5929;&#x6C17;&#x4E88;&#x5831;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;">&#x5929;&#x6C17;&#x4E88;&#x5831;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;</h3>
-<p><a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> &#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x5929;&#x6C17;&#x4E88;&#x5831;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;&#xFF0E;</p>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> BASE_URL = <span class="hljs-string">&apos;http://api.openweathermap.org/data/2.5/weather&apos;</span>
-<span class="hljs-keyword">const</span> API_KEY = <span class="hljs-string">&apos;YOUR_API_KEY&apos;</span> <span class="hljs-comment">// OpenWeatherMap &#x3067; API &#x30AD;&#x30FC;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;</span>
-
-<span class="hljs-comment">// &#x5929;&#x6C17;&#x4E88;&#x5831;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;&#x95A2;&#x6570;</span>
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getWeatherForecast</span>(<span class="hljs-params">latitude, longitude</span>)</span>{
-  <span class="hljs-keyword">const</span> endpoint = BASE_URL + <span class="hljs-string">&apos;?lat=&apos;</span> + latitude + <span class="hljs-string">&apos;&amp;lon=&apos;</span> + longitude + <span class="hljs-string">&apos;&amp;APPID=&apos;</span> + API_KEY
-
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">onError</span>(<span class="hljs-params">error</span>)</span>{
-    alert(error.message)
-  }
-
-  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">showWeatherForecast</span>(<span class="hljs-params">data</span>)</span>{
-    alert(data.weather[<span class="hljs-number">0</span>].description)
-  }
-
-  <span class="hljs-comment">// OpenWeatherMap &#x304B;&#x3089;&#x5929;&#x6C17;&#x4E88;&#x5831;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;</span>
-  fetch(endpoint)
-    .catch(onError)
-    .then(response =&gt; response.json()) <span class="hljs-comment">// &#x53D6;&#x5F97;&#x3057;&#x305F;&#x30C7;&#x30FC;&#x30BF;&#x306F;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x3067;&#x3042;&#x308B;&#x305F;&#x3081; JSON &#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;</span>
-    .then(showWeatherForecast)
-}
-
-<span class="hljs-comment">// &#x73FE;&#x5728;&#x4F4D;&#x7F6E;&#x304C;&#x53D6;&#x5F97;&#x3067;&#x304D;&#x305F;&#x969B;&#x306B;&#x547C;&#x3070;&#x308C;&#x308B;&#x95A2;&#x6570;</span>
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getCurrentPositionOnSuccess</span>(<span class="hljs-params">position</span>)</span>{
-  <span class="hljs-keyword">const</span> latitude = position.coords.latitude <span class="hljs-comment">// &#x7DEF;&#x5EA6;</span>
-  <span class="hljs-keyword">const</span> longitude = position.coords.longitude <span class="hljs-comment">// &#x7D4C;&#x5EA6;</span>
-
-  <span class="hljs-comment">// &#x5929;&#x6C17;&#x4E88;&#x5831;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;</span>
-  getWeatherForecast(latitude, longitude)
-}
-
-<span class="hljs-comment">// &#x73FE;&#x5728;&#x4F4D;&#x7F6E;&#x304C;&#x53D6;&#x5F97;&#x306B;&#x5931;&#x6557;&#x3057;&#x305F;&#x969B;&#x306B;&#x547C;&#x3070;&#x308C;&#x308B;&#x95A2;&#x6570;</span>
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getCurrentPositionOnError</span>(<span class="hljs-params">error</span>)</span>{
-  alert(error.message)
-}
-
-<span class="hljs-comment">// &#x73FE;&#x5728;&#x4F4D;&#x7F6E;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;</span>
-navigator.geolocation.getCurrentPosition(getCurrentPositionOnSuccess, getCurrentPositionOnError)
+                                <h1 id="hello-world-">Hello World !</h1>
+<p><a href="https://www.google.co.jp/chrome/index.html" target="_blank">Google Chrome</a> &#x3092;&#x958B;&#x304D;&#xFF0C;</p>
+<p>&#x753B;&#x9762;&#x3092;&#x53F3;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x30E1;&#x30CB;&#x30E5;&#x30FC;&#x3092;&#x958B;&#x304D;&#xFF0C;&#x691C;&#x8A3C;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x307E;&#x3059;&#xFF0E;</p>
+<p><img src="capture/HelloWorld1.png" alt="HelloWorld1"></p>
+<p>&#x305D;&#x306E;&#x5F8C;&#xFF0C;<code>Console</code> &#x3068;&#x3044;&#x3046;&#x30BF;&#x30D6;&#x3092;&#x958B;&#x304D;&#x307E;&#x3059;&#xFF0E;&#x3053;&#x308C;&#x3067; JavaScript &#x306E;&#x5B9F;&#x884C;&#x74B0;&#x5883;&#x304C;&#x7ACB;&#x3061;&#x4E0A;&#x304C;&#x308A;&#x307E;&#x3057;&#x305F;&#xFF0E;</p>
+<p><img src="capture/HelloWorld2.png" alt="HelloWorld2"></p>
+<p>&#x3053;&#x3053;&#x3067;&#x8A18;&#x8FF0;&#x3057;&#x305F; JavaScript &#x306E;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306F;&#x3053;&#x3053;&#x3067;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#xFF0E;JavaScript &#x306E;&#x5B9F;&#x884C;&#x74B0;&#x5883;&#x306E;&#x8D77;&#x52D5;&#x304C;&#x78BA;&#x8A8D;&#x3067;&#x304D;&#x305F;&#x3089;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x5165;&#x529B;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#xFF0E;</p>
+<pre><code class="lang-javascript">&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hello World !&apos;</span>)
+</code></pre>
+<p>&#x304A;&#x99B4;&#x67D3;&#x307F;&#x306E;&#x300C;Hello World !&#x300D;&#x3068;&#x3044;&#x3046;&#x6587;&#x5B57;&#x5217;&#x3092;&#x51FA;&#x529B;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#xFF0E;</p>
+<p><img src="capture/HelloWorld3.png" alt="HelloWorld3"></p>
+<p>&#x7C21;&#x5358;&#x306A;&#x8A08;&#x7B97;&#x306A;&#x3069;&#x3067;&#x3042;&#x308C;&#x3070;&#x3053;&#x306E;&#x5BFE;&#x8A71;&#x74B0;&#x5883;&#x3067;&#x5341;&#x5206;&#x306B;&#x5B9F;&#x884C;&#x3067;&#x304D;&#x307E;&#x3059;&#xFF0E;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x6F14;&#x7B97;&#x5B50;</th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">+</td>
+<td style="text-align:left">&#x52A0;&#x7B97;</td>
+</tr>
+<tr>
+<td style="text-align:left">-</td>
+<td style="text-align:left">&#x6E1B;&#x7B97;</td>
+</tr>
+<tr>
+<td style="text-align:left">*</td>
+<td style="text-align:left">&#x4E57;&#x7B97;</td>
+</tr>
+<tr>
+<td style="text-align:left">/</td>
+<td style="text-align:left">&#x9664;&#x7B97;&#xFF08;&#x5546;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">%</td>
+<td style="text-align:left">&#x9664;&#x7B97;&#xFF08;&#x4F59;&#x308A;&#xFF09;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-javascript">&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span> + <span class="hljs-number">2</span>)
+<span class="hljs-number">4</span>
+&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span> - <span class="hljs-number">2</span>)
+<span class="hljs-number">0</span>
+&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span> * <span class="hljs-number">2</span>)
+<span class="hljs-number">4</span>
+&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span> / <span class="hljs-number">2</span>)
+<span class="hljs-number">1</span>
+&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span> % <span class="hljs-number">2</span>)
+<span class="hljs-number">0</span>
+&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hello World !&apos;</span>)
+Hello World !
+&gt; <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Hello &apos;</span> + <span class="hljs-string">&apos;World &apos;</span> + <span class="hljs-string">&apos;!&apos;</span>)
+Hello World !
 </code></pre>
 
                                 
@@ -477,12 +491,12 @@ navigator.geolocation.getCurrentPosition(getCurrentPositionOnSuccess, getCurrent
 
             
                 
-                <a href="CheatSheet.html" class="navigation navigation-prev " aria-label="Previous page: チートシート">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: チュートリアル">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../GitHub/" class="navigation navigation-next " aria-label="Next page: GitHub とは">
+                <a href="Variable.html" class="navigation navigation-next " aria-label="Next page: 変数">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -493,7 +507,7 @@ navigator.geolocation.getCurrentPosition(getCurrentPositionOnSuccess, getCurrent
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"サンプル","level":"4.3","depth":1,"next":{"title":"GitHub とは","level":"5.1","depth":1,"path":"docs/GitHub/README.md","ref":"docs/GitHub/README.md","articles":[{"title":"Web サイトを公開する","level":"5.1.1","depth":2,"path":"docs/GitHub/Practice.md","ref":"docs/GitHub/Practice.md","articles":[]}]},"previous":{"title":"チートシート","level":"4.2","depth":1,"path":"docs/JavaScript/CheatSheet.md","ref":"docs/JavaScript/CheatSheet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/JavaScript/Sample.md","mtime":"2018-06-18T06:55:40.606Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-18T06:56:19.691Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Hello World !","level":"4.1.1","depth":2,"next":{"title":"変数","level":"4.1.2","depth":2,"path":"docs/js/Variable.md","ref":"docs/js/Variable.md","articles":[]},"previous":{"title":"チュートリアル","level":"4.1","depth":1,"path":"docs/js/README.md","ref":"docs/js/README.md","articles":[{"title":"Hello World !","level":"4.1.1","depth":2,"path":"docs/js/HelloWorld.md","ref":"docs/js/HelloWorld.md","articles":[]},{"title":"変数","level":"4.1.2","depth":2,"path":"docs/js/Variable.md","ref":"docs/js/Variable.md","articles":[]},{"title":"条件分岐","level":"4.1.3","depth":2,"path":"docs/js/If.md","ref":"docs/js/If.md","articles":[]},{"title":"ループ","level":"4.1.4","depth":2,"path":"docs/js/For.md","ref":"docs/js/For.md","articles":[]},{"title":"関数","level":"4.1.5","depth":2,"path":"docs/js/Function.md","ref":"docs/js/Function.md","articles":[]},{"title":"オブジェクト","level":"4.1.6","depth":2,"path":"docs/js/Object.md","ref":"docs/js/Object.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/js/HelloWorld.md","mtime":"2018-09-17T17:26:30.606Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-17T17:27:11.719Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
